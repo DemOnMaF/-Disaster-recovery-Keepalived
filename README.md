@@ -78,7 +78,7 @@ else
 fi
 ```
 
-Файл конфига 
+Файл конфига ![Keepalived](keepalived.conf)
 
 ![4]()
 
