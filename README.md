@@ -80,7 +80,7 @@ fi
 
 Файл конфига ![Keepalived](keepalived.conf)
 
-![4]()
+![4](img/1t2.png)
 
 ![5]()
 
