@@ -80,7 +80,13 @@ fi
 
 Файл конфига ![Keepalived](keepalived.conf)
 
-![4](img/1t2.png)
+![4](img/1t2.png) 
+```
+Jan 16 20:02:19 debian11 Keepalived_vrrp[3679]: Opening file '/etc/keepalived/keepalived.conf'.
+Jan 16 20:02:19 debian11 Keepalived_vrrp[3679]: Warning - script check_script is not used
+Jan 16 20:02:19 debian11 Keepalived_vrrp[3679]: Registering gratuitous ARP shared channel
+```
+Не запускается Bash-скрипт в конфигурационном файле keepalived.conf   (((
 
 ![5]()
 
