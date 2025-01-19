@@ -78,7 +78,7 @@ else
 fi
 ```
 
-Файл конфига ![Файл](keepalived.conf)
+Файл конфига [Keepalived](keepalived.conf).
 
 ![4](img/1t2.png) 
 ```
