@@ -67,7 +67,7 @@
 
 ### *Ответ*
 
-
+Файл скрипта [check_nginx.sh](check_nginx.sh).
 
 ```
 #!/bin/bash
