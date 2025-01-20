@@ -67,18 +67,23 @@
 
 ### *Ответ*
 
-Файл скрипта [check_nginx.sh](check_nginx.sh).
+
 
 ```
-#!/bin/bash
-if [[ $(netstat -tuln | grep LISTEN | grep :80) ]] && [[ -f /var/www/html/index.nginx-debian.html ]]; then
-        exit 0
-else
-        exit 1
-fi
+sudo apt-get install keepalived -y
+sudo apt install systemct -y
+sudo nano /etc/keepalived/keepalived.conf
+sudo systemctl enable keepalived
+sudo systemctl start keepalived
+sudo apt-get install nginx -y
+sudo nano /var/www/html/index.nginx-debian.html
+sudo apt-get install net-tools -y
+sudo nano /etc/keepalived/check_nginx.sh
+
 ```
 
 Файл конфига [Keepalived](keepalived.conf).
+Файл скрипта [check_nginx.sh](check_nginx.sh).
 
 ![4](img/1t2.png) 
 ```
