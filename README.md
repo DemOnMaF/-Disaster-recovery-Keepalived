@@ -71,7 +71,7 @@
 
 ```
 sudo apt-get install keepalived -y
-sudo apt install systemct -y
+sudo apt install systemctl -y
 sudo nano /etc/keepalived/keepalived.conf
 sudo systemctl enable keepalived
 sudo systemctl start keepalived
