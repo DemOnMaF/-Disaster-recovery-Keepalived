@@ -87,17 +87,12 @@ sudo apt-get install net-tools -y
 Файл конфига [Keepalived](keepalived.conf).
 Файл скрипта [check_nginx.sh](check_nginx.sh).
 
-![4](img/1t2.png) 
-```
 
+![4](img/1e2.png) 
 
-![5]()
+![5](img/2e2.png)
 
-![6]()
-
-![7]()
-
-
+![6](img/3e2.png)
 
 
 ------
