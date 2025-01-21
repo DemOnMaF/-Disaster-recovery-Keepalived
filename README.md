@@ -73,12 +73,14 @@
 sudo apt-get install keepalived -y
 sudo apt install systemctl -y
 sudo nano /etc/keepalived/keepalived.conf
+sudo nano /etc/keepalived/check_nginx.sh
 sudo systemctl enable keepalived
 sudo systemctl start keepalived
 sudo apt-get install nginx -y
 sudo nano /var/www/html/index.nginx-debian.html
+sudo chmod +x /var/www/html/index.nginx-debian.html
 sudo apt-get install net-tools -y
-sudo nano /etc/keepalived/check_nginx.sh
+
 
 ```
 
@@ -87,11 +89,7 @@ sudo nano /etc/keepalived/check_nginx.sh
 
 ![4](img/1t2.png) 
 ```
-Jan 16 20:02:19 debian11 Keepalived_vrrp[3679]: Opening file '/etc/keepalived/keepalived.conf'.
-Jan 16 20:02:19 debian11 Keepalived_vrrp[3679]: Warning - script check_script is not used
-Jan 16 20:02:19 debian11 Keepalived_vrrp[3679]: Registering gratuitous ARP shared channel
-```
-Не запускается Bash-скрипт в конфигурационном файле keepalived.conf   (((
+
 
 ![5]()
 
