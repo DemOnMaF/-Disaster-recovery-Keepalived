@@ -73,19 +73,28 @@
 sudo apt-get install keepalived -y
 sudo apt install systemctl -y
 sudo nano /etc/keepalived/keepalived.conf
+```
+Файл конфига [Keepalived](keepalived.conf).
+
+```
 sudo nano /etc/keepalived/check_nginx.sh
+```
+Файл скрипта [check_nginx.sh](check_nginx.sh).
+
+```
 sudo systemctl enable keepalived
 sudo systemctl start keepalived
 sudo apt-get install nginx -y
 sudo nano /var/www/html/index.nginx-debian.html
-sudo chmod +x /var/www/html/index.nginx-debian.html
+sudo chmod +x /etc/keepalived/check_nginx.sh
 sudo apt-get install net-tools -y
 
 
 ```
 
-Файл конфига [Keepalived](keepalived.conf).
-Файл скрипта [check_nginx.sh](check_nginx.sh).
+
+
+
 
 
 ![4](img/1e2.png) 
