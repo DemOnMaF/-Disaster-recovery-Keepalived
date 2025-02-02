@@ -46,13 +46,12 @@
 
 
 
-![1]()
+![1](img/1e1.png)
 
-![2]()
+![2](img/2e1.png)
 
-![3]()
 
-Файл PKT 
+Файл  [PKT](hsrp_advanced.pkt)
 
 
 
