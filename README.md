@@ -70,7 +70,7 @@
 
 ```
 sudo apt-get install keepalived -y
-sudo apt install systemctl -y
+sudo apt install systemd -y
 sudo nano /etc/keepalived/keepalived.conf
 ```
 Файл конфига [Keepalived](keepalived.conf).
